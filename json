@@ -1,0 +1,121 @@
+{
+    "id_contact":1,
+    "name":"Karla Real",
+    "phone_office":"614 987 1234",
+    "movil": "55 7886 2550",
+    "email": "karla_real@jabil.com",
+    "id_customer": 1
+},
+{
+    "id_contact":2,
+    "name":"Rodrigo Macias",
+    "phone_office":"614 589 7834",
+    "movil": "656 890 1206",
+    "email": "rodrigo_macias@jabil.com",
+    "id_customer": 1
+}
+
+{
+    "id_project": 1,
+    "workcell":"OCADO",
+    "name":"PICK STATION",
+    "id_customer": 1,
+    "id_contact":2,
+    "status":true,
+    "create_at": new Date()
+}
+
+{
+    "id_rep":1,
+    "name": "Gerardo Montoya",
+    "comission_percentage": 1,
+    "created_at": new Date("2020/12/25")
+}
+{
+    "id_rep":2,
+    "name": "Marco Gutierrez",
+    "comission_percentage": 1.25,
+    "created_at": new Date("2018/06/05")
+}
+{
+    "id_rep":3,
+    "name": "Alejandro Guerrero",
+    "comission_percentage": 1.50,
+    "created_at": new Date("2012/03/02")
+}
+
+{
+    "invoice": "IJ100856",
+    "invoice_date": new Date("2020/05/25"),
+    "due_date": new Date("2020/07/09"),
+    "customer_id":1000111,
+    "revenew":9652.85,
+    "cost": 6274.35,
+    "gross_profit":3378.50
+},
+{
+    "invoice": "IJ100965",
+    "invoice_date": new Date("2020/05/25"),
+    "due_date": new Date("2020/07/09"),
+    "customer_id":1000056,
+    "revenew":2413.41,
+    "cost": 1448.05,
+    "gross_profit":965.36
+},
+{
+    "invoice": "IJ100856",
+    "invoice_date": new Date("2020/05/26"),
+    "due_date": new Date("2020/08/09"),
+    "customer_id":1000112,
+    "revenew":15896.74,
+    "cost": 11127.72,
+    "gross_profit":4769.02
+}
+
+
+{
+    "item_id":6000185,
+    "name":"Relf barbados",
+    "price":0.25,
+    "supply_chain":"telecom"
+}
+    {
+        "item_id":6001786,
+        "name":"Rsc box ncr ssco 7106",
+        "price":56.32,
+        "supply_chain":"telecom"
+    }
+{
+    "item_id":6407852,
+    "name":"Atm pallet serie 7800",
+    "price":215.86,
+    "supply_chain":"industry"
+}
+{
+    "item_id":6600184,
+    "name":"Corrugated insert",
+    "price":0.58,
+    "supply_chain":"aerospace"
+}
+
+
+
+
+{
+    "customer_id":1000111,
+    "name":"Jabil Chihuahua",
+    "created_at": new Date("2022/06/08"),
+    "id_rep":1
+}
+{
+    "customer_id":1000056,
+    "name":"Signify Camargo",
+    "created_at": new Date("2022/06/08"),
+    "id_rep":2
+}
+{
+    "customer_id":1000112,
+    "name":"Syncreon ELP",
+    "created_at": new Date("2022/06/08"),
+    "id_rep":1
+}
